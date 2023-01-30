@@ -22,3 +22,11 @@ zoning_key_terms:
 - "floor area"
 - "far"
 - "ami"
+
+# character of neighborhood case study terms
+character_key_terms:
+- "landmark"
+- "preservation"
+- "preserve"
+- "character"
+- "historic"
