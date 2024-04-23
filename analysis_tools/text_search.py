@@ -7,6 +7,7 @@ def extract_ents(sentence, NERTag="LOC"):
     """
     Extracts specified NERtag entity from input text.
     @ return: list of all nertags specified.
+    Note: this method does not have as much accuracy for locations
     """
     import numpy as np
     # print(f"Processing sent:  {sentence}")

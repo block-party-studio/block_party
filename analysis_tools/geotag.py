@@ -3,7 +3,7 @@ import numpy as np
 
 def get_location_from_text(text):
     """
-    text: input text to extract geography from.
+    text: input text to extract geography from. This is more accurate than the NERTag approach
     """
     place_list = extraction.Extractor(text=text)
     entities = place_list.find_entities()
